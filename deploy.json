@@ -1,0 +1,17 @@
+{
+  "server": "root@***.***.***.***",
+  "port": 22,
+  "server_dir": "/var/www/app",
+  "repo": "git@github.com:user/repo.git",
+  "prj_git_relative_dir": "",
+  "branch": "master",
+  "force_regenerate_git_dir": false,
+  "shared_dirs": [
+    "node_modules",
+    "db"
+  ],
+  "prerun": [
+    "npm install"
+  ],
+  "run_cmd": "npm start"
+}
